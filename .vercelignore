@@ -1,0 +1,12 @@
+# Evitar subir dependencias innecesarias al build de Vercel
+node_modules
+npm-debug.log
+yarn-error.log
+.vscode
+.DS_Store
+*.local
+.env
+.env.*.local
+coverage
+build
+dist
